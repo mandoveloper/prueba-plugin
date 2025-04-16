@@ -1,62 +1,95 @@
-# WooCommerce Atix Payment Services Gateway #
+=== Plugin Name ===
+Contributors: (this should be a list of wordpress.org userid's)
+Donate link: https://example.com/
+Tags: tag1, tag2
+Requires at least: 4.7
+Tested up to: 5.4
+Stable tag: 4.3
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-* Version: 1.0.0
-* Development: [Atix](https://dashboard.atix.com.pe/)
+Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 
-Tags: woocommerce, payment gateway, gateway, manual payment
+== Description ==
 
-Requires at least: 3.8
+This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
 
-Tested up to: 5.2.3
+For backwards compatibility, if this section is missing, the full length of the short description will be used, and
+Markdown parsed.
 
-Requires WooCommerce at least: 3.0+
+A few notes about the sections above:
 
-Tested WooCommerce up to: 3.7.0
+* "Contributors" is a comma separated list of wordpress.org usernames
+* "Tags" is a comma separated list of tags that apply to the plugin
+* "Requires at least" is the lowest version that the plugin will work on
+* "Tested up to" is the highest version that you've *successfully used to test the plugin*
+* Stable tag must indicate the Subversion "tag" of the latest stable version
 
-Stable Tag: 1.0.0
+Note that the `readme.txt` value of stable tag is the one that is the defining one for the plugin.  If the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used for displaying information about the plugin.
 
-License: GPLv3
+If you develop in trunk, you can update the trunk `readme.txt` to reflect changes in your in-development version, without having that information incorrectly disclosed about the current stable version that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
 
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+If no stable tag is provided, your users may not get the correct version of your code.
 
-Create a custom payment gateway for LAC Payment services.
+== Frequently Asked Questions ==
 
-### Description ###
+= A question that someone might have =
 
-Requires: WooCommerce 3.0+
+An answer to that question.
 
-This plugin uses a online method to process any purchase through the LAC Payment Services API.
+= What about foo bar? =
 
-When an order is submitted via the LAC Payment Services method, the order will be placed "on-hold".
+Answer to foo bar dilemma.
 
-### Installation ###
+== Screenshots ==
 
-Be sure you're running WooCommerce 3.0+ in your shop.
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Screenshots are stored in the /assets directory.
+2. This is the second screen shot
 
-You can: (1) upload the entire woocommerce-atix folder to the /wp-content/plugins/ directory, (2) upload the .zip file with the plugin under Plugins > Add New > Upload
+== Changelog ==
 
-Activate the plugin through the Plugins menu in WordPress
+= 1.0 =
+* A change since the previous version.
+* Another change.
 
-Go to WooCommerce > Settings > Payments and select "GBC Payment Services" to configure
+= 0.5 =
+* List versions from most recent at top to oldest at bottom.
 
-Also you can see the instructions to upload a plugin in WordPress [here](https://wordpress.org/support/article/managing-plugins/#manual-upload-via-wordpress-admin)
+== Upgrade Notice ==
 
-### Frequently Asked Questions ###
+= 1.0 =
+Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
 
-What is the text domain for translations? The text domain is woocommerce-atix.
+= 0.5 =
+This version fixes a security related bug.  Upgrade immediately.
 
-Can I fork this? Please do! This is meant to be a simple gateway, and can be modified easily.
+== A brief Markdown Example ==
 
-#### Changelog ####
+Markdown is what the parser uses to process much of the readme file.
 
-= 2019.10.11 - version 1.0.0 =
+[markdown syntax]: https://daringfireball.net/projects/markdown/syntax
 
-Initial Release
+Ordered list:
 
-#### Support ####
+1. Some feature
+1. Another feature
+1. Something else about the plugin
 
-Support Email: [soporteti@atix.com.pe](mailto:soporteti@atix.com.pe)
+Unordered list:
 
-Repo Owner: [Atix](https://dashboard.atix.com.pe/)
+* something
+* something else
+* third thing
 
-Main Developer: [Atix](https://dashboard.atix.com.pe/)
+Links require brackets and parenthesis:
+
+Here's a link to [WordPress](https://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax]. Link titles are optional, naturally.
+
+Blockquotes are email style:
+
+> Asterisks for *emphasis*. Double it up  for **strong**.
+
+And Backticks for code:
+
+`<?php code(); ?>`
