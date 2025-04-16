@@ -8,6 +8,9 @@ Stable tag: 3.1.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Banner: https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg
+Banner low: https://marketplace.canva.com/EAFf6spg1IA/2/0/1600w/canva-banner-de-youtube-gamer-neon-azul-RbaAwn1GHvE.jpg
+
 
 Se añaden nuevas opciones de personalización.
 
