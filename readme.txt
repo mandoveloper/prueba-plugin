@@ -64,5 +64,5 @@ Para la instalación es necesario seguir los siguientes pasos:
 
 == Upgrade Notice ==
 
-= 3.1.0 =
+= 3.1.3 =
 Se añaden nuevas opciones de personalización.
