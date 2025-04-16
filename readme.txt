@@ -18,21 +18,21 @@ La flexibilidad de pagos que tú y tus clientes necesitan
 
 Cobra sin complicaciones, tenemos diferentes soluciones de pago para tu negocio:
 
-* <strong>"Atix Link"</strong> Genera links de pago y realiza cobros por distintas plataformas: redes, correo, sms, etc.
+* <strong>Atix Link:</strong> Genera links de pago y realiza cobros por distintas plataformas: redes, correo, sms, etc.
 
-* <strong>"Atix API"</strong> Controla toda la experiencia de pago mediante integración API.
+* <strong>Atix API:</strong> Controla toda la experiencia de pago mediante integración API.
 
-* <strong>"Botón Flex"</strong> Botón de pago para la aceptación de pago con tarjetas de débito/crédito.
+* <strong>Botón Flex:</strong> Botón de pago para la aceptación de pago con tarjetas de débito/crédito.
 
 En nuestra pasarela encontrarás el aliado perfecto para iniciar tu negocio
 
-* <strong>"Seguridad de Nivel Superior"</strong> Reduce fraudes, protege los datos de tus clientes con los estándares de PCI DSS.
+* <strong>Seguridad de Nivel Superior:</strong> Reduce fraudes, protege los datos de tus clientes con los estándares de PCI DSS.
 
-* <strong>"Métodos de pago para todos"</strong> Acepta una amplia gama de tarjetas de crédito, débito y billeteras digitales.
+* <strong>Métodos de pago para todos:</strong> Acepta una amplia gama de tarjetas de crédito, débito y billeteras digitales.
 
-* <strong>"¿Complicaciones? En Atix todo es fácil"</strong> Automatiza procesos, configura fácil y sin complicaciones nuestra pasarela de pagos.
+* <strong>¿Complicaciones? En Atix todo es fácil:</strong> Automatiza procesos, configura fácil y sin complicaciones nuestra pasarela de pagos.
 
-* <strong>"Rápido y Confiable"</strong> Procesamos operaciones de tus clientes al instante y sin problemas, con un soporte 100% personalizado.
+* <strong>Rápido y Confiable:</strong> Procesamos operaciones de tus clientes al instante y sin problemas, con un soporte 100% personalizado.
 
 
 
