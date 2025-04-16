@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Atix Payment Gateway for Woocommerce 1.0.14\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-atix\n"
+"POT-Creation-Date: 2025-04-15 14:29-0500\n"
+"PO-Revision-Date: 2025-04-15 14:29-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: woocommerce-atix\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2,4c;_x:1,2c\n"
+"X-Poedit-SearchPath-0: includes/wc_atix_add_documentation_menu.php\n"
+"X-Poedit-SearchPath-1: includes/wc_atix_documentation_handler.php\n"
+"X-Poedit-SearchPath-2: includes/wc_atix_gateway_init.php\n"
+"X-Poedit-SearchPath-3: includes/wc_atix_gateway_plugin_links.php\n"
+"X-Poedit-SearchPath-4: includes/wc_class-block.php\n"
+"X-Poedit-SearchPath-5: includes/wc_compatibility_checkout_block.php\n"
+"X-Poedit-SearchPath-6: includes/wc_custom_atix_gateway_title.php\n"
+"X-Poedit-SearchPath-7: includes/wc_custom_page_controller.php\n"
+"X-Poedit-SearchPath-8: includes/wc_dinamic_confirmation_route.php\n"
+"X-Poedit-SearchPath-9: includes/wc_register_webhook_endpoint.php\n"
+"X-Poedit-SearchPath-10: includes/wc_utils.php\n"
+"X-Poedit-SearchPath-11: includes/wc_webhook_notification.php\n"
+"X-Poedit-SearchPath-12: js/checkout.js\n"
+
+#: includes/wc_atix_add_documentation_menu.php:5
+msgid "Atix Payment Services - Documentation"
+msgstr "Servicios de pago Atix - Documentación"
+
+#: includes/wc_atix_add_documentation_menu.php:6
+msgid "Atix Documentation"
+msgstr "Atix Documentación"
+
+#: includes/wc_atix_documentation_handler.php:11
+msgid "How to configure this Payment Gateway"
+msgstr "Como configurar este método de pago"
+
+#: includes/wc_atix_documentation_handler.php:13
+msgid ""
+"First, you'll have to go through Woocoommerce > Settings in order to enter "
+"the Payments Sections."
+msgstr ""
+"Primero, tiene que ir a Woocommerce > Ajustes, para ingresar a la sección de "
+"pagos."
+
+#: includes/wc_atix_documentation_handler.php:14
+msgid "Also you can click"
+msgstr "También puedes hacer clic"
+
+#: includes/wc_atix_documentation_handler.php:15
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: includes/wc_atix_documentation_handler.php:15
+msgid "here"
+msgstr "aquí"
+
+#: includes/wc_atix_documentation_handler.php:17
+msgid "You will find the different values to register and set your data"
+msgstr "Encontrarás los diferentes valores a registrar e ingresar sus datos"
+
+#: includes/wc_atix_documentation_handler.php:22
+#: includes/wc_atix_gateway_init.php:109
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/wc_atix_documentation_handler.php:22
+msgid ""
+"This input controls what the final user will see on the front-end as "
+"description, it can be changed to anything, just remember to be as "
+"descriptive as possible"
+msgstr ""
+"Esto controla lo que el usuario final verá, puede cambiarse por lo que sea, "
+"solo recuerde ser tan descriptivo como sea posible"
+
+#: includes/wc_atix_documentation_handler.php:23
+#: includes/wc_atix_gateway_init.php:116
+msgid "API Key PEN"
+msgstr "API Key SOLES"
+
+#: includes/wc_atix_documentation_handler.php:23
+#: includes/wc_atix_documentation_handler.php:24
+msgid ""
+"This input is the most important one, controls your shop's permission to use "
+"the Atix Payment Services API, this one is sent by Atix Payment Services"
+msgstr ""
+"Esta entrada es la más importante, controla el permiso de su tienda para "
+"usar la API Atix Payment Services, esta es enviada por Servicios de Pago de "
+"Atix"
+
+#: includes/wc_atix_documentation_handler.php:24
+#: includes/wc_atix_gateway_init.php:123
+msgid "API Key USD"
+msgstr "API Key DOLARES"
+
+#: includes/wc_atix_documentation_handler.php:25
+#: includes/wc_atix_gateway_init.php:130
+msgid "Security key"
+msgstr "Clave de seguridad"
+
+#: includes/wc_atix_documentation_handler.php:25
+msgid ""
+"This entry is important for authenticating you when updating the sale. It's "
+"used by Atix Payment Services"
+msgstr ""
+"Esta entrada es importante para autenticarte al momento de actualizar la "
+"venta. Es usada por Atix Payment Services"
+
+#: includes/wc_atix_documentation_handler.php:26
+#: includes/wc_atix_gateway_init.php:137
+msgid "Pay confirmation url"
+msgstr "URL de confirmación de pago"
+
+#: includes/wc_atix_documentation_handler.php:26
+msgid ""
+"This entry indicates the name of your purchase confirmation page, by default "
+"it is \"checkout\""
+msgstr ""
+"Esta entrada indica cual es el nombre de su página de confirmación de "
+"compra, por defecto es \"checkout\""
+
+#: includes/wc_atix_documentation_handler.php:27
+#: includes/wc_atix_gateway_init.php:144
+msgid "Final status"
+msgstr "Estado final"
+
+#: includes/wc_atix_documentation_handler.php:27
+msgid ""
+"This entry indicates the status in which you want the transaction to end if "
+"it is successful, by default it is \"completed.\""
+msgstr ""
+"Esta entrada indica cual es el estado en que desea finalizar la transacción "
+"en caso sea exitosa, por defecto es \"completado.\""
+
+#: includes/wc_atix_documentation_handler.php:28
+#: includes/wc_atix_gateway_init.php:156
+msgid "Cash/Wallets"
+msgstr "Efectivo/Billeteras"
+
+#: includes/wc_atix_documentation_handler.php:28
+msgid ""
+"This entry indicates whether you are eligible for cash or digital wallet "
+"payments."
+msgstr ""
+"Esta entrada indica si tiene afiliado el cobro con efectivo o billeteras "
+"digitales."
+
+#: includes/wc_atix_documentation_handler.php:29
+#: includes/wc_atix_gateway_init.php:164
+msgid "Test Mode"
+msgstr "Modo de prueba"
+
+#: includes/wc_atix_documentation_handler.php:29
+msgid ""
+"This checkbox controls if this shop is currently on development or it is in "
+"production."
+msgstr ""
+"Controla si la tienda está actualmente en modo desarrollo o en producción."
+
+#: includes/wc_atix_documentation_handler.php:32
+msgid "Enter your customized instructions and descriptions first."
+msgstr "Primero Ingrese sus instrucciones personalizadas y descripciones."
+
+#: includes/wc_atix_documentation_handler.php:33
+msgid "Enter your Exclusive Atix Payment API Key."
+msgstr "Ingrese su API Key exclusiva de Atix Payment Services."
+
+#: includes/wc_atix_documentation_handler.php:34
+msgid ""
+"Specify if your shop is currently on development or are already on "
+"production, using the last checkbox of \"Test Mode\" and click \"Save "
+"Changes\""
+msgstr ""
+"Especifica si su tienda está actualmente en modo desarrollo o producción "
+"usando la última opción de \"Modo de pruebas\" y haga click en \"Guardar "
+"cambios\""
+
+#: includes/wc_atix_documentation_handler.php:35
+msgid "Done!"
+msgstr "¡Listo!"
+
+#: includes/wc_atix_documentation_handler.php:35
+msgid "You are ready to start shopping using our Payment Gateway"
+msgstr "Ya puedes empezar a comprar con nuestra pasarela de pago"
+
+#: includes/wc_atix_documentation_handler.php:38
+msgid ""
+"If you have any inquiry regarding our plugin, please send an email "
+"specifying your problem at the following address:"
+msgstr ""
+"Si tiene alguna consulta acerca de este plugin, por favor envíe un correo "
+"electrónico especificando su problema a la siguiente dirección:"
+
+#: includes/wc_atix_gateway_init.php:27
+msgid "Atix Payment Gateway"
+msgstr "Pasarela de pagos de Atix"
+
+#: includes/wc_atix_gateway_init.php:28
+msgid "Allows payments via payment gateway for Atix Payment Services."
+msgstr "Permite realizar pagos mediante el Servicio de pago Atix."
+
+#: includes/wc_atix_gateway_init.php:103
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: includes/wc_atix_gateway_init.php:105
+msgid "Enable Atix Payment Services Gateway"
+msgstr "Habilita la pasarela de pagos de Atix"
+
+#: includes/wc_atix_gateway_init.php:111
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descripción del método de pago que el usuario verá en el checkout."
+
+#: includes/wc_atix_gateway_init.php:112 includes/wc_class-block.php:44
+msgid ""
+"When you confirm your purchase, we will redirect you to Atix site for secure "
+"payment."
+msgstr ""
+"Al confirmar su compra, será redirigido al sitio de Atix para realizar su "
+"pago."
+
+#: includes/wc_atix_gateway_init.php:118
+msgid ""
+"Site unique APIKey PEN, it will validate and create the neccesary token for "
+"process the purchase."
+msgstr ""
+"API Key única del sitio, validará y creará el token necesario para procesar "
+"la compra."
+
+#: includes/wc_atix_gateway_init.php:125
+msgid ""
+"Site unique APIKey USD, it will validate and create the neccesary token for "
+"process the purchase."
+msgstr ""
+"API Key única del sitio, validará y creará el token necesario para procesar "
+"la compra."
+
+#: includes/wc_atix_gateway_init.php:132
+msgid "Site unique Key, it will validate for webhook payment notificactions."
+msgstr ""
+"Clave única del sitio, se validará para notificaciones de pago de webhook."
+
+#: includes/wc_atix_gateway_init.php:139
+msgid ""
+"Enter the name of your checkout page, example: yourdomain/checkout/order-"
+"received/123/?key=wc_order_SwrcT2Wpokxz1  by default it will be \"checkout\"."
+msgstr ""
+"Ingresar el nombre de su pagina de finalización de compra, ejemplo: "
+"\"tudominio/checkout/order-received/123/?key=wc_order_SwrcT2Wpokxz1\". De "
+"forma predeterminada será \"checkout\"."
+
+#: includes/wc_atix_gateway_init.php:147
+msgid "Select the final state in which you want the transaction to end."
+msgstr "Seleccionar el estado final en que desea que finalice la transacción."
+
+#: includes/wc_atix_gateway_init.php:151
+msgid "completed"
+msgstr "completado"
+
+#: includes/wc_atix_gateway_init.php:152
+msgid "processing"
+msgstr "procesando"
+
+#: includes/wc_atix_gateway_init.php:157
+msgid "Cash and wallet payments enabled"
+msgstr "Pagos con efectivo y billeteras habilitado"
+
+#: includes/wc_atix_gateway_init.php:159
+msgid ""
+"Check the box to indicate that you have enabled cash and digital wallet "
+"payments."
+msgstr ""
+"Marque la casilla para indicar que tiene habilitado pagos en efectivo y con "
+"billetera digital."
+
+#: includes/wc_atix_gateway_init.php:165
+msgid "Enable Test Mode"
+msgstr "Habilitar modo de prueba"
+
+#: includes/wc_atix_gateway_init.php:167
+msgid "Select the box to put the payment gateway into test mode"
+msgstr "Seleccione la casilla para poner la pasarela de pago en modo de prueba"
+
+#: includes/wc_atix_gateway_plugin_links.php:5
+msgid "Configure"
+msgstr "Configurar"
+
+#: includes/wc_class-block.php:43
+msgid "Pay with credit or debit card"
+msgstr "Paga con tarjeta de crédito o débito"
+
+#: includes/wc_custom_atix_gateway_title.php:10
+msgid "Payment Service Atix"
+msgstr "Servicio de Pago Atix"
+
+#: includes/wc_custom_page_controller.php:35
+msgid "Order not found"
+msgstr "Orden no encontrada"
+
+#: js/checkout.js:4
+msgid "Atix Payment Services"
+msgstr "Servicio de pago Atix"
+
+#~ msgid "Atix Payment Gateway for Woocommerce"
+#~ msgstr "Atix Pasarela de pago para WooCommerce"
+
+#~ msgid "https://dashboard.atix.com.pe/"
+#~ msgstr "https://dashboard.atix.com.pe"
+
+#~ msgid "This is a simple payment gateway for Atix Payment Services."
+#~ msgstr ""
+#~ "Esta es una pasarela de pago sencilla para los servicios de pago de Atix."
+
+#~ msgid "Global Bridge Connections"
+#~ msgstr "Atix"
