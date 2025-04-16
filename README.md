@@ -1,22 +1,13 @@
-=== Payment Service Atix ===
-Contributors: Atix
-Donate link: https://atix.com.pe
-Tags: payment, gateway, woocommerce, atix, peru
-Requires at least: 5.0
-Tested up to: 6.5
-Stable tag: 3.1.0
-Requires PHP: 7.4
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
+# Payment Service Atix - Wordpress Plugin
 
 Facilita los cobros de tu negocio con la mejor pasarela de pagos.
 
-== Description ==
+> Para poder configurar el servicio, debe contar con sus API KEY de configuración.
+
 
 ## La flexibilidad de pagos que tú y tus clientes necesitan
 
-#### Cobra sin complicaciones, tenemos diferentes soluciones de pago para tu negocio:
+Cobra sin complicaciones, tenemos diferentes soluciones de pago para tu negocio:
 
 **Atix Link:**  Genera links de pago y realiza cobros por distintas plataformas: redes, correo, sms, etc.
 
@@ -36,9 +27,9 @@ Facilita los cobros de tu negocio con la mejor pasarela de pagos.
 
 
 
-== Installation ==
+#### Instalación y configuración
 
-#### Para la instalación es necesario seguir los siguientes pasos:
+Para la instalación es necesario seguir los siguientes pasos:
 
 1.  En su panel de administración de WordPress, dirigirse a la sección **Plugins -> Añadir nuevo**, ubicado en el menú lateral.
 2.  Dar clic en la opción **Subir Plugin**, ubicado en la parte superior de la pantalla.
@@ -55,13 +46,8 @@ Facilita los cobros de tu negocio con la mejor pasarela de pagos.
 13. **Guardar** los cambios.
 
 
-== Changelog ==
+#### Changelog
 
 <h4>Versión 3.1.0</h4><ul><li>Puedes elegir el estado de finalización de la transacción.</li><li>Modificar el nombre de tu página de finalización</li><li>Opción de indicar si tienes afiliado el pago con efectivo o billeteras digitales</li></ul>
 
 <h4>Versión 3.0.0</h4><ul><li>Version inicial Atix</li></ul>
-
-== Upgrade Notice ==
-
-= 3.1.0 =
-Se añaden nuevas opciones de personalización.
