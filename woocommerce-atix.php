@@ -6,14 +6,14 @@
  * This is a simple payment gateway for Atix Payment Services.
  *
  * @link              https://dashboard.atix.com.pe/
- * @since             3.0.2
+ * @since             3.0.3
  * @package           woocommerce_atix
  *
  * @wordpress-plugin
  * Plugin Name:       Atix Payment Gateway for Woocommerce
  * Plugin URI:        https://docs.atix.com.pe/plugin-woocommerce
  * Description:       This is a simple payment gateway for Atix Payment Services.
- * Version:           3.0.2
+ * Version:           3.0.3
  * Author:            Atix
  * Author URI:        https://atix.com.pe/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
 /* --------------------------------------------------------------
     DEFINE CURRENT PLUGIN VERSION
 -------------------------------------------------------------- */
-define( 'WOOCOMMERCE_ATIX_VERSION', '3.0.2' );
+define( 'WOOCOMMERCE_ATIX_VERSION', '3.0.3' );
 
 // 1. Cargar la librería Plugin Update Checker
 require dirname( __FILE__ ) . '/plugin-update-checker/load-v5p5.php';
@@ -46,11 +46,13 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory; // Usa v5 o v4 según la vers
 
 // Reemplaza con la URL REAL donde alojarás tu archivo JSON
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://testpen.gbcpay.net/PaymentGatewayJWS_Sandbox/Service1.svc/GetData', // URL del archivo JSON de metadatos
+    'https://github.com/mandoveloper/prueba-plugin/', // URL del archivo JSON de metadatos
     __FILE__,                                       // Ruta completa al archivo principal del plugin
     'atix_payment_gateway'                             // El slug único de tu plugin
 );
 
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
 
 // Iniciar la "sesión"
 function init_session() {
