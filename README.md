@@ -47,6 +47,7 @@ Para la instalación es necesario seguir los siguientes pasos:
 
 
 #### Changelog
+<h4>Versión 3.1.2</h4><ul><li>Prueba Atix</li></ul>
 
 <h4>Versión 3.1.0</h4><ul><li>Puedes elegir el estado de finalización de la transacción.</li><li>Modificar el nombre de tu página de finalización</li><li>Opción de indicar si tienes afiliado el pago con efectivo o billeteras digitales</li></ul>
 
