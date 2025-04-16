@@ -89,8 +89,7 @@ function wc_atix_gateway_init() {
             $payload_data = '{
                 "Tokenid": ["'.$token.'"]
             }';
-            $result = $this->api_curl_request($payload_data, 'https://testpen.gbcpay.net/payment/v1/api/ResultTransactionByTokenId');//TODO: ELIMINAR
-            // $result = $this->api_curl_request($payload_data, 'https://gateway.atix.com.pe/payment/v1/api/ResultTransactionByTokenId');
+            $result = $this->api_curl_request($payload_data, 'https://gateway.atix.com.pe/payment/v1/api/ResultTransactionByTokenId');
             $response = json_decode($result, true);
             return $response;
         }
